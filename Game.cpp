@@ -177,7 +177,7 @@ public:
         return false;
     }
 
-    static void main() {
+    int main() {
         int rows, columns;
         cin >> rows >> columns;
         vector<vector<int>> board(rows, vector<int>(columns));
